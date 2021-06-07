@@ -35,5 +35,5 @@ createNotificationsButton.addEventListener('click', () => {
     image: './pepper.png'
   }
 
-  const notification = new Notification('')
+  const notification = new Notification(title, options)
 })
