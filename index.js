@@ -28,5 +28,12 @@ createNotificationsButton.addEventListener('click', () => {
 
   console.log('create notification clicked!');
 
-  const notification = new Notification('dummy notification')
+  const title = 'Cool title';
+  const options = {
+    body: 'This is the body',
+    icon: './icon.png',
+    image: './pepper.png'
+  }
+
+  const notification = new Notification('')
 })
